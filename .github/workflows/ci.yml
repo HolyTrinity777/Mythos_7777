@@ -30,4 +30,4 @@ jobs:
         run: ruff check .
 
       - name: Test with pytest
-        run: pytest -q
+        run: PYTHONPATH=. pytest -q
