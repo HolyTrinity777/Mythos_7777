@@ -1,0 +1,8 @@
+[project]
+name = "mythos-zero"
+version = "0.1.0"
+description = "Target-driven structural simulation API"
+authors = [{ name = "YOIHENBA SOUGAIJAM" }]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["Flask", "gunicorn", "numpy", "pydantic"]
