@@ -1,5 +1,7 @@
 from flask import Blueprint, jsonify
-import os, time, random
+import os
+import time
+import random
 from dataclasses import dataclass
 from enum import Enum
 from math import pi, sqrt
