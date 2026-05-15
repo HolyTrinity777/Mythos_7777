@@ -3,7 +3,7 @@ import os
 from endpoints import ENDPOINTS, ACCESS_KEY, evaluate_simulation
 from aeon_engine import AeonEngine, AeonConfig, AeonState
 from pydantic import BaseModel, Field, ValidationError
-from typing import List, Optional, Literal
+from typing import List, Optional
 
 app = Flask(__name__)
 app.register_blueprint(ENDPOINTS)
