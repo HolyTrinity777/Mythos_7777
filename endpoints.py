@@ -1,4 +1,4 @@
-from flask import Blueprint, request, jsonify
+from flask import Blueprint, jsonify
 import os, time, random
 from dataclasses import dataclass
 from enum import Enum
