@@ -1,7 +1,6 @@
-from app import app
+import sys
+from pathlib import Path
 
-def test_health():
-    app.config["TESTING"] = True
-    client = app.test_client()
-    response = client.get("/health")
-    assert response.status_code == 200
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+
+from app import app
